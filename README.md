@@ -13,3 +13,10 @@ LDAP is a radios server.
   * CN = Common Name
   * OU = Organizational Unit
   * DC = Domain Component
+
+
+# TODO
+dockerize
+UI
+backup restore crontab
+
