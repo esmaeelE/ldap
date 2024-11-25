@@ -23,3 +23,15 @@ LDAP is a radios server.
 
 * https://hub.docker.com/r/bitnami/openldap
 
+---
+
+# Commands
+```
+nc -nzv 127.0.0.1 1636
+nc -nzv 127.0.0.1 1389
+```
+
+```
+ldapsearch -H ldap://localhost:1389 -b dc=example,dc=org -D "cn=admin,dc=example,dc=org" -w"adminpassword"
+```
+
