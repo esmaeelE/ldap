@@ -25,7 +25,7 @@ LDAP is a radios server.
 
 ---
 
-# Commands
+# Commands use for compose.yml
 ```
 nc -nzv 127.0.0.1 1636
 nc -nzv 127.0.0.1 1389
