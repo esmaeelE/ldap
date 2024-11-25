@@ -16,7 +16,10 @@ LDAP is a radios server.
 
 
 # TODO
-dockerize
-UI
-backup restore crontab
+
+* dockerize
+* UI
+* backup restore crontab
+
+* https://hub.docker.com/r/bitnami/openldap
 
