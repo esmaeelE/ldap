@@ -19,9 +19,15 @@
 #   Author              : Esmaeel
 #
 ###############################################################################
+# Run in Crontab
+#
+###############################################################################
+
+# sudo mkdir -p /opt/scripts/run  /opt/scripts/logs/
+# sudo touch /opt/scripts/logs/log_backup_ldap
+# sudo touch /opt/scripts/logs/error_backup_ldap
 ## crontab -l
 # 15 00 * * * bash /opt/scripts/run/backup_ldap.sh 1 >> /opt/scripts/logs/log_backup_ldap 2>> /opt/scripts/logs/error_backup_ldap
-
 
 ###############################################################################
 #   Global Variables
